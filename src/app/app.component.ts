@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  // this is connected to user input with ngModel
+  userText: string = "Blah";
 }
